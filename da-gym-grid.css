@@ -1,0 +1,154 @@
+*{
+    font-family: 'Pretendard';
+    color: #585D68;
+    font-size: 12px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f6f8;
+}
+.header{
+    width: 100%;
+    height: 44px;
+    position: fixed;
+    display: flex;
+    background-color: white;
+    z-index: 10;
+}
+.iTag{
+    /* width: 768px; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 20px;
+    margin: 0 auto;
+    gap: 10px;
+    padding-right: 10px;
+}
+.iTag > i{
+    cursor: pointer;
+}
+.nav{
+    /* width: 754px; */
+    width: 40%;
+    height: 44px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    top: 44px;
+    background-color: white;
+    padding: 10px 10px;
+    gap: 8px;
+    border-top: 1px solid #DADDE5;
+    z-index: 10;
+}
+.nav > button:first-child{
+    font-weight: bold;
+}
+.nav > button{
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 1px;
+    border: 1px solid #DADDE5;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.headContainer{
+    position: absolute;
+    top: 100px;
+}
+.container{
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+}
+.mainBox{
+    width: 362px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+.mainBox:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.imgBox > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.contentsBox{
+    width: auto;
+    height: 100%;
+    padding: 7px 10px;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.textbox > .nameBox{
+    font-size: 15px;
+    font-weight: bold;
+}
+.textbox > .office{
+    font-size: 14px;
+}
+.ptButton{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.buttonBox > button{
+    line-height: 20px;
+    font-weight: bold;
+    background: rgb(251, 251, 251);
+    border: none;
+    box-shadow: rgb(218, 221, 229) 0px 0px 0px 1px inset;
+    border-radius: 10px;
+    padding: 1px 8px;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    background-color: #fbfbfb;
+    z-index: 10;
+}
+.iconBox{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.iconBox > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.iconBox > div > i{
+    font-size: 20px;
+}
